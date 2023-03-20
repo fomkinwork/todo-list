@@ -1,0 +1,149 @@
+/* Таблицы сбрасывают унаследованные отступы и явно задают тип границы таблицы */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Сброс внешних отступов/поля */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Поддержка HTML5 элементов блока в IE6-8 */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+/* Отрицательные отступы для исправления смещения потомков <img> внутри элемента <a> */
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+/* По умолчанию "display:block" для элементов <audio>, <video> и <canvas> */
+audio,
+video,
+canvas {
+	display: inline-block;
+}
+
+/* HTML5 не требует соблюдения структуры вложения тегов, поэтому целый ряд HTML-элементов становятся потомками <body> по умолчанию. */
+body {
+	/* базовый шрифт окна браузера */
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: Arial, sans-serif;
+}
+
+/* Отдельная ссылка без подчеркивания */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Интерактивные элементы */
+button,
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+select,
+textarea {
+	margin: 0;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+}
+
+button,
+a {
+	cursor: pointer;
+	 outline: none;
+ }
